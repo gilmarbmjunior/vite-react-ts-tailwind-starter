@@ -1,19 +1,19 @@
-import { cn } from './lib/utils'
+import { cn } from './util/cn'
 
 function App() {
-  return (
-    <div
-      className={cn(
-        'w-screen',
-        'h-screen',
-        'flex',
-        'items-center',
-        'justify-center',
-      )}
-    >
-      Hello World
-    </div>
-  )
+    return (
+        <div
+            className={cn(
+                'flex',
+                'h-screen',
+                'items-center',
+                'justify-center',
+                'w-screen',
+            )}
+        >
+            Hello World
+        </div>
+    )
 }
 
 export default App
