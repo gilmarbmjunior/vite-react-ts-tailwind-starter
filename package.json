@@ -1,38 +1,46 @@
 {
-  "name": "landing-tailwind",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.3.1",
-    "clsx": "^2.1.1",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "tailwind-merge": "^3.6.0",
-    "tailwindcss": "^4.3.1"
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/node": "^24.12.3",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/parser": "^8.61.0",
-    "@vitejs/plugin-react": "^6.0.1",
-    "eslint": "^10.5.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.6.0",
-    "prettier": "^3.8.4",
-    "prettier-plugin-tailwindcss": "^0.8.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.0.12"
-  }
+    "name": "vite-react-ts-tailwind-starter",
+    "description": "Landing page do Projeto Inclus com React e Tailwind",
+    "version": "2.6.0613",
+    "author": "Gilmar Bezerra de Menezes Júnior",
+    "license": "UNLICENSED",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=22"
+    },
+    "scripts": {
+        "prettier": "prettier --write .",
+        "lint": "eslint . --fix",
+        "format": "npm run prettier && npm run lint",
+        "typecheck": "tsc --noEmit",
+        "dev": "npm run format && vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.3.1",
+        "clsx": "^2.1.1",
+        "react": "^19.2.6",
+        "react-dom": "^19.2.6",
+        "tailwind-merge": "^3.6.0",
+        "tailwindcss": "^4.3.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^24.12.3",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@typescript-eslint/parser": "^8.61.0",
+        "@vitejs/plugin-react": "^6.0.1",
+        "eslint": "^10.5.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.2",
+        "globals": "^17.6.0",
+        "prettier": "^3.8.4",
+        "prettier-plugin-tailwindcss": "^0.8.0",
+        "typescript": "~6.0.2",
+        "vite": "^8.0.12"
+    }
 }

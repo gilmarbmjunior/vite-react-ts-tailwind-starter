@@ -197,4 +197,13 @@ export default [
     },
 
     prettier,
+
+    {
+        files: ['vite.config.ts', 'eslint.config.js'],
+        languageOptions: {
+            globals: {
+                ...globals.node,
+            },
+        },
+    },
 ]
