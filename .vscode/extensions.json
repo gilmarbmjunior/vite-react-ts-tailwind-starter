@@ -1,7 +1,11 @@
 {
     "recommendations": [
-        "ms-vscode.vscode-eslint",
+        "bradlc.vscode-tailwindcss",
+        "dbaeumer.vscode-eslint",
+        "dsznajder.es7-react-js-snippets",
+        "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss"
+        "formulahendry.auto-rename-tag",
+        "pkief.material-icon-theme"
     ]
 }
